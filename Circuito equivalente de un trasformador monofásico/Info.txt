@@ -1,0 +1,31 @@
+Descripción: Este programa fue realizado como tarea para el curso de Máquinas Eléctricas I de la Universidad de Costa Rica.
+	Su función es encontrar los valores de resistencia e inductancia de un transformador monofásico con base en los valores
+	obtenidos en las pruebas de vacío y de cortocircuito.
+Autor: José Mario Navarro Bejarano (Proyecto realizado de forma individual)
+Lenguaje: Python 
+
+
+__________________________________________________________________________________________________#
+
+Instrucciones de utilización: Este programa se encarga de realizar el calculo de los componentes del
+   circuito equivalente de un transformador monofásico. Para su utilización tomar
+   en cuenta los siguientes puntos:
+       1- El programa puede ser ejecutado desde el ejecutable "Tarea_programada.exe". En este caso
+	   es posible que el antivirus detecte el archivo como peligroso, se puede desactivar el
+	   antivirus para poder ejecutarlo.
+       2- El programa tambien se puede ejecutar desde algun IDE que permita ejecutar código de
+           de python. Puede utilizarse Visual Studio Code. Para realizarlo debe moverse la ruta
+           de ejecución a la carpeta que contenga el script, para que las imagenes puedan ser
+           incluidas y utilizadas, de lo contrario dará error indicando que no se han podido
+           obtener las imagenes.
+       3- Para ejecutarse en IDE se requieren los paquetes tkinter y math.
+       4- Esta versión de este programa no considera efectos de frecuencia.
+       5- IMPORTANTE: Esta versión unicamente realiza el cálculo correctamente cuando los valores
+           para Circuito abierto son medidos en Baja Tensión y los valores de 
+           Cortocircuito se miden en Alta Tensión.
+       6- El programa se puede utilizar para transformadores elevadores o reductores.
+       7- La relacion de transformacion debe escribirse en forma decimal. Ejem: 0.5789 (para indicar
+          220/380)
+       8- El programa solicita tambien la potencia aparente, sin embargo los calculos relacionados a
+	  este valor no pudieron ser implementados, por lo que se recomienda llenar este valor con "1"
+___________________________________________________________________________________________________#
